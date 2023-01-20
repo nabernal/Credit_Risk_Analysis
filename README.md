@@ -63,7 +63,6 @@ There is a bulleted list that describes the balanced accuracy score and the prec
  
 ## Summary:
 
-There is a summary of the results (2 pt)
 Both Oversampling models did not perform well, but the Naive Random Oversampling model performed slightly better than the SMOTE Oversampling model. Naive Random Oversampling model also performed better than the undersampling model. The oversampling and Naive Random Oversampling models performed similarly. The Ensemble models performed better than the resampling models. The Easy Ensemble model is the better of the two ensemble models. 
 
 Suggestion: Although Easy Ensemble was the best model in this round of testing, it still had a low precision score (7%) like all the other models. Therefore this is not a good model with a low accuracy at predicting high credit risk and high accuracy at falsely predicting high credit risk. Further modifications are required to develop a good model that can predict high credit-risk credit card applicants. 
